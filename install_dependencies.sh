@@ -4,20 +4,3 @@ sudo apt-get install build-essential ros-kinetic-gazebo-ros     ros-kinetic-eige
 sudo apt-get install ros-kinetic-octomap ros-kinetic-octomap-mapping ros-kinetic-octomap-msgs ros-kinetic-octomap-ros ros-kinetic-octomap-rviz-plugins ros-kinetic-octomap-server ros-kinetic-manipulation-msgs
 
 sudo ln -s /usr/include/eigen3/Eigen /usr/local/include/Eigen.
-
-# we need version 1.1.6, since this version works with ROS kinetic, future versions of artemis_robot 
-#git clone https://github.com/odysseusPolytropos/universal_robot.git
-#cd universal_robot
-#git checkout 1.1.6
-#cd ..
-
-git clone https://github.com/odysseusPolytropos/robotiq_85_gripper.git
-git clone https://github.com/odysseusPolytropos/moveit-pkgs.git
-git clone https://github.com/odysseusPolytropos/joint-control-pkgs.git
-git clone https://github.com/odysseusPolytropos/jaco-arm-pkgs.git
-git clone https://github.com/odysseusPolytropos/general-message-pkgs.git
-git clone https://github.com/odysseusPolytropos/gazebo-pkgs.git
-git clone https://github.com/odysseusPolytropos/general-message-pkgs.git
-git clone https://github.com/odysseusPolytropos/convenience-pkgs.git
-
-cd ..
