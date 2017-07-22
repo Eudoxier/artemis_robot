@@ -1,3 +1,21 @@
 [submodule "universal_robot"]
 	path = universal_robot
 	url = https://github.com/ros-industrial/universal_robot.git
+[submodule "moveit-pkgs"]
+	path = moveit-pkgs
+	url = https://gitlab.com/datenstrom/moveit-pkgs.git
+[submodule "robotiq_85_gripper"]
+	path = robotiq_85_gripper
+	url = https://gitlab.com/datenstrom/robotiq_85_gripper.git
+[submodule "joint-control-pkgs"]
+	path = joint-control-pkgs
+	url = https://gitlab.com/datenstrom/joint-control-pkgs.git
+[submodule "jaco-arm-pkgs"]
+	path = jaco-arm-pkgs
+	url = https://gitlab.com/datenstrom/jaco-arm-pkgs.git
+[submodule "gazebo-pkgs"]
+	path = gazebo-pkgs
+	url = https://gitlab.com/datenstrom/gazebo-pkgs.git
+[submodule "convenience-pkgs"]
+	path = convenience-pkgs
+	url = https://gitlab.com/datenstrom/convenience-pkgs.git
