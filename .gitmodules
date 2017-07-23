@@ -19,3 +19,6 @@
 [submodule "convenience-pkgs"]
 	path = convenience-pkgs
 	url = https://gitlab.com/datenstrom/convenience-pkgs.git
+[submodule "general-message-pkgs"]
+	path = general-message-pkgs
+	url = https://gitlab.com/datenstrom/general-message-pkgs.git
